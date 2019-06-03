@@ -1,0 +1,161 @@
+/* *************IDs******************* */
+#title{
+    background-color: #ff4c68;
+    color: white;
+    height: 70%;
+    padding: 0 15% 3%;
+    position: relative;
+    z-index: 0;
+}
+
+/* *****************TAGs****************** */
+body{
+    font-family: 'Montserrat';
+}
+h1{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    line-height: 1.5;
+    size: 3.5rem;
+}
+h2{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+h3{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+/* ***************navigation bar******************** */
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+    padding-left: 0;
+}
+.nav-item{
+    padding: 0 5%;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+/* download bottons */
+.btn{
+    margin: 15% 5% 0;
+}
+/* dog image */
+#dogsize{
+    width: 60%;
+    transform: rotate(20deg);
+    margin-left: 30%;
+}
+@media (max-width: 1003px) {
+    #dogsize{
+        padding-top: 20px;
+        transform: rotate(0deg);
+    }
+    #title{
+        text-align: center;
+    }
+}
+/* font awesome section 2 */
+#features{
+    background-color: white;
+    padding-top: 10%;
+    position: relative;
+    bottom: 6.5rem;
+    z-index: 1;
+}
+.fas{
+    font-size: 500%;
+    color: #ef8172;
+    margin: auto;
+    padding-bottom: 1rem;
+}
+.fas:hover{
+    color : #dd4c68;
+}
+.fontcolor{
+    color: #8f8f8f
+}
+.benefits{
+    padding-top: 50px;
+    margin: 0 10rem;
+    text-align: center;
+}
+.marmar{
+    padding: 0 2rem;
+}
+
+/* testimonials section */
+#testimonials{
+    background-color: #ef8172;
+    
+    text-align: center;
+}
+.carousel-item{
+    color: white;
+    padding: 7% 15%;
+}
+.testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 3%;
+}
+#colorem{
+    color: white;
+}
+
+/* press section */
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+    text-align: center;
+}
+.pres-img{
+    width: 16%;
+    padding: 0 1% 2%;
+}
+
+/* pricing section */
+#pricing{
+    padding: 7% 15%;
+    text-align: center;
+}
+.paddinforcol {
+    padding: 3% 2%;
+}
+.marcahnge{
+    margin: 0;
+}
+
+/* call us section */
+#cta{
+    padding: 7% 15%;
+    background-color: #ff4c68;
+    text-align: center;
+}
+#h3size{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 3rem;
+    color: white;
+}
+.btnDown{
+    padding:5% 27%;
+    margin: 0%;
+}
+/* fooooooooooter */
+#footer{
+    text-align: center;
+    padding: 9% 0;
+}
+#paddington{
+    padding: 1% 1%;
+    font-size: 150%;
+}
